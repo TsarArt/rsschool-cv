@@ -55,3 +55,15 @@ function addZero(str1, str2) {
     return str1;
 }
 ```
+
+## **Education:**
+
+* RS School
+* GeekBrains
+* Code.mu
+* UWE Bristol
+
+## **Languages:**
+
+* Russian
+* English
