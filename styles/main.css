@@ -1,14 +1,14 @@
 @import url("../fonts/Montserrat/stylesheet.css");
 body {
-  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#466af0+24,955be1+50,e14dd2+100 */
-  background: #466af0 fixed;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#466aef+0,e04dd2+100 */
+  background: #466aef fixed;
   /* Old browsers */
   /* FF3.6-15 */
   /* Chrome10-25,Safari5.1-6 */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(24%, #466af0), color-stop(50%, #955be1), to(#e14dd2)) fixed;
-  background: linear-gradient(to bottom, #466af0 24%, #955be1 50%, #e14dd2 100%) fixed;
+  background: -webkit-gradient(linear, left top, left bottom, from(#466aef), to(#e04dd2)) fixed;
+  background: linear-gradient(to bottom, #466aef 0%, #e04dd2 100%) fixed;
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#466af0', endColorstr='#e14dd2',GradientType=0 );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#466aef', endColorstr='#e04dd2',GradientType=0 ) fixed;
   /* IE6-9 */ }
 
 .container {
@@ -191,7 +191,7 @@ body {
                     align-items: center; }
 
 .education-and-skill {
-  width: 330px;
+  width: 300px;
   background-color: #fff;
   border-radius: 10px;
   display: -webkit-box;
@@ -203,7 +203,8 @@ body {
           flex-direction: column;
   -webkit-box-align: center;
       -ms-flex-align: center;
-          align-items: center; }
+          align-items: center;
+  padding: 18px 15px; }
   .education-and-skill .section-title .section-title__div {
     width: 294px;
     height: 24px;
@@ -236,8 +237,24 @@ body {
       height: 0;
       border: 1px solid #545454;
       margin: 11px 0; }
-  .education-and-skill .section-title article .school-name {
-    font-family: Calibri;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 18px; }
+  .education-and-skill .section-title article {
+    line-height: 18px;
+    height: 50px; }
+    .education-and-skill .section-title article .company-name {
+      font-family: Calibri;
+      font-weight: 600;
+      font-size: 16px;
+      color: #343434;
+      margin: 12px 0 0 0; }
+    .education-and-skill .section-title article .position {
+      font-family: Calibri;
+      font-weight: 400;
+      font-size: 14px;
+      color: #343434;
+      margin: 0; }
+    .education-and-skill .section-title article .time-period {
+      font-family: Calibri;
+      font-weight: 400;
+      font-size: 12px;
+      color: #73808D;
+      margin: 0; }

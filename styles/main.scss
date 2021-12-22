@@ -6,12 +6,13 @@ $MontserratBold: 'montserratbold';
 
 
 body {
-    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#466af0+24,955be1+50,e14dd2+100 */
-    background: rgb(70,106,240) fixed; /* Old browsers */
-    background: -moz-linear-gradient(top,  rgba(70,106,240,1) 24%, rgba(149,91,225,1) 50%, rgba(225,77,210,1) 100%) fixed; /* FF3.6-15 */
-    background: -webkit-linear-gradient(top,  rgba(70,106,240,1) 24%,rgba(149,91,225,1) 50%,rgba(225,77,210,1) 100%) fixed; /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom,  rgba(70,106,240,1) 24%,rgba(149,91,225,1) 50%,rgba(225,77,210,1) 100%) fixed; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#466af0', endColorstr='#e14dd2',GradientType=0 ); /* IE6-9 */
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#466aef+0,e04dd2+100 */
+    background: rgb(70,106,239) fixed; /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(70,106,239,1) 0%, rgba(224,77,210,1) 100%) fixed; /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(70,106,239,1) 0%,rgba(224,77,210,1) 100%) fixed; /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(70,106,239,1) 0%,rgba(224,77,210,1) 100%) fixed; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#466aef', endColorstr='#e04dd2',GradientType=0 ) fixed; /* IE6-9 */
+
 }
 
 .container {
@@ -182,12 +183,13 @@ body {
 }
 
 .education-and-skill {
-    width: 330px;
+    width: 300px;
     background-color: #fff;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 18px 15px;
 
     .section-title {
         .section-title__div {
@@ -221,13 +223,32 @@ body {
         }
 
         article {
+            line-height: 18px;
+            height: 50px;
 
-            .school-name {
+            .company-name {
                 font-family: Calibri;
                 font-weight: 600;
+                font-size: 16px;
+                color: #343434;
+                margin: 12px 0 0 0;
+            }
+
+            .position {
+                font-family: Calibri;
+                font-weight: 400;
                 font-size: 14px;
-                line-height: 18px;
-            }  
+                color: #343434;
+                margin: 0;
+            }
+
+            .time-period {
+                font-family: Calibri;
+                font-weight: 400;
+                font-size: 12px;
+                color: #73808D;
+                margin: 0;
+            }
         }
     }
 }
