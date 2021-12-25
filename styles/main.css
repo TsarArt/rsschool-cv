@@ -15,12 +15,7 @@ body {
   width: 650px;
   height: 100%;
   margin: 10px auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between; }
+  position: relative; }
 
 .about-me {
   background: rgba(196, 196, 196, 0.3);
@@ -33,7 +28,8 @@ body {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
-          flex-direction: column; }
+          flex-direction: column;
+  position: fixed; }
 
 .profile {
   display: -webkit-box;
@@ -144,6 +140,11 @@ body {
         color: #fff;
         padding: 0 8px;
         margin: 0; }
+        .about-me__main .personal-info .personal-info__article .personal-info__article__list a {
+          text-decoration: none;
+          color: #fff;
+          font-size: 16px;
+          line-height: 18px; }
       .about-me__main .personal-info .personal-info__article .languages-list {
         font-family: Calibri, sans-serif;
         font-weight: 400;
@@ -183,12 +184,14 @@ body {
             -webkit-box-pack: justify;
                 -ms-flex-pack: justify;
                     justify-content: space-between; }
-          .about-me__main .personal-info .personal-info__article .languages-list li span {
-            font-size: 8px;
-            color: #CECACA;
-            -webkit-box-align: center;
-                -ms-flex-align: center;
-                    align-items: center; }
+            .about-me__main .personal-info .personal-info__article .languages-list li div span {
+              font-size: 8px;
+              color: #CECACA;
+              -webkit-box-align: center;
+                  -ms-flex-align: center;
+                      align-items: center; }
+  .about-me__main .references ul li {
+    list-style: none !important; }
 
 .education-and-skill {
   width: 300px;
@@ -204,14 +207,14 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 18px 15px; }
+  padding: 18px 15px;
+  margin: 0 0 0 320px; }
   .education-and-skill .section-title .section-title__div {
     width: 294px;
     height: 24px;
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex;
-    margin: 24px 0 0 0; }
+    display: flex; }
     .education-and-skill .section-title .section-title__div h3 {
       min-width: 154px;
       height: 24px;
