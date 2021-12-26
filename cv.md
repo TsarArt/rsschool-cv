@@ -11,7 +11,7 @@
 * **Soc. media:**
   * *Telegram:* @thelostman97
 
-Welcome to my CV page and welcome! My name is Arthur, I won't hide it, I'm lazy. But I have to admit that I'm also stubborn. It is difficult to say from my positive or negative sides, but I can say for sure that I am diligent and until I achieve a result, I am unlikely to leave this case. And of the negative sides is to do everything at wish/mood.
+Welcome to my CV page and welcome! My name is Arthur, I won't hide it, I'm lazy. But I have to admit that I'm also stubborn. It is difficult to say from my side it's a positive or a negative side, but I can say for sure that I am diligent and until I achieve a result, I am unlikely to leave this case. And of the negative sides is to do everything at wish/mood.
 
 There is no work experience in this field. Of the aspirations, I can single out the desire to enrich my knowledge in the web industry through practice and learning something new.
 
