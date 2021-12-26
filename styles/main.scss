@@ -189,7 +189,7 @@ body {
         }
     }
     .references {
-        ul li {
+        li {
             list-style: none!important;
         }
     }
@@ -208,7 +208,7 @@ body {
 
     .section-title {
         .section-title__div {
-            width: 294px;
+            min-width: 294px;
             height: 24px;
             display: flex;
 
@@ -234,6 +234,14 @@ body {
                 border: 1px solid #545454;
                 margin: 11px 0;
             }
+        }
+
+        p {
+            font-family: Calibri;
+            font-size: 13px;
+            line-height: 14px;
+            font-weight: 400;
+            text-align: justify;
         }
 
         article {
@@ -264,5 +272,16 @@ body {
                 margin: 0;
             }
         }
+    }
+}
+
+#code {
+    max-width: 100%;
+    margin: 12px 0 0 0;
+
+    img {
+        width: 100%;
+        margin: 10px 0 0 0;
+        border-radius: 0 0 10px 10px;
     }
 }
